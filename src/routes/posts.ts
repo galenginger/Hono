@@ -9,3 +9,4 @@ posts.put("/:id", (c) => c.json(`Update post with ID: ${c.req.param("id")}`));
 posts.delete("/:id", (c) => c.json(`Delete post with ID: ${c.req.param("id")}`));
 
 export default posts;
+

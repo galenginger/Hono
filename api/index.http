@@ -1,0 +1,17 @@
+### home
+GET http://localhost:3000/
+
+### GET all posts
+GET http://localhost:3000/v1/posts
+
+### GET one post
+GET http://localhost:3000/v1/posts/2
+
+### CREATE a post
+GET http://localhost:3000/v1/posts
+
+### UPDATE a post
+PUT http://localhost:3000/v1/posts/2
+
+### DELETE a post
+DELETE http://localhost:3000/v1/posts/2
